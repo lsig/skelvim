@@ -13,7 +13,7 @@
     - Ýttu síðan q og skrifaðu ":wq" og enter til þess að save-a og exit-a neovim
 8. Njóttu skelvim
 
-## English
+##
 1. log into skel
 2. make a folder called .config in your home directory on skel (mkdir .config)
 3. move into .config folder (cd .config) 
