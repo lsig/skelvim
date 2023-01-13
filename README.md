@@ -2,7 +2,7 @@
 
 ## Setup (English below) 
 1. loggaðu þig inn á skel 
-2. búðu til folder sem heitir .config í home directoryrinu þínu (mkdir .config) 
+2. búðu til folder sem heitir .config í home directoryrinu þínu á skel (mkdir .config) 
 3. færðu þig inn í .config (cd .config) 
 4. clone-aðu skelvim repo-ið í .config folderinn (git clone https://github.com/lsig/skelvim.git)
 5. clone-aðu packer, sjá quickstart (plug-in manager, skel er á linux) [packer.nvim](https://github.com/wbthomason/packer.nvim)
