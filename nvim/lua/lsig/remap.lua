@@ -11,8 +11,7 @@ nnoremap("<leader>fb", "<cmd>lua require('telescope.builtin').buffers()<CR>")
 nnoremap("<leader>fh", "<cmd>lua require('telescope.builtin').help_tags()<CR>")
 
 --File explorer
-nnoremap("<leader>ot", "<cmd>:NvimTreeOpen<CR>")
-nnoremap("<leader>ct", "<cmd>:NvimTreeClose<CR>")
+nnoremap("<leader>pv", "<cmd>:Ex<CR>")
 
 -- Lspsaga
 nnoremap("gf", "<cmd>:Lspsaga lsp_finder<CR>", { silent = true }) -- show definition, references
@@ -29,21 +28,20 @@ nnoremap("K", "<cmd>:Lspsaga hover_doc<CR>", { silent = true }) -- show document
 nnoremap("<leader>o", "<cmd>:Lspsaga outline<CR>", { silent = true }) -- see outline on right hand side
 nnoremap("<A-d>", "<cmd>:Lspsaga open_floatterm<CR>", { silent = true }) -- Float terminal
 
--- Window splitting 
+-- Window splitting
 nnoremap("<leader>sv", "<C-w>v")
 nnoremap("<leader>sh", "<C-w>s")
 nnoremap("<leader>se", "<C-w>=")
 nnoremap("<leader>sx", "<cmd>:close<CR>")
 
 nnoremap("J", "mzJ`z")
-nnoremap("<C-d>", "C-d>zz")
-nnoremap("<C-u>", "C-u>zz")
+nnoremap("<C-d>", "<C-d>zz")
+nnoremap("<C-u>", "<C-u>zz")
 nnoremap("n", "nzzzv")
 nnoremap("N", "Nzzzv")
 nnoremap("<leader>y", '"+y')
 nnoremap("<leader>Y", '"+Y')
 nnoremap("Q", "<nop>")
-
 
 -- insert mode remaps
 inoremap("<C-c>", "<ESC>")
@@ -56,4 +54,3 @@ vnoremap("<leader>y", '"+y')
 
 -- x mode remaps
 xnoremap("<leader>p", '"_dP')
-
