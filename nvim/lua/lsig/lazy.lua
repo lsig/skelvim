@@ -64,4 +64,5 @@ return require("lazy").setup({
 	-- Tpope and more
 	{ "tpope/vim-surround", event = "VeryLazy" },
 	{ "tpope/vim-commentary", event = "VeryLazy" },
+	{ "christoomey/vim-tmux-navigator", event = "VeryLazy" },
 })
