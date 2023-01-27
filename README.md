@@ -17,3 +17,8 @@
 4. clone the skelvim repo into the .config folder: "git clone https://github.com/lsig/skelvim.git . " (don't for get the period)
 5. open Neovim: nvim .
 6. Enjoy skelvim
+
+## Vim for beginners 
+This video shows you the basics of vim (it isn't that scary): [Vim for beginners](https://www.youtube.com/watch?v=X6AR2RMB5tE&list=PLm323Lc7iSW_wuxqmKx_xxNtJC_hJbQ7R&ab_channel=ThePrimeagen)
+
+Also look at the remap.lua file to see remaps. 
